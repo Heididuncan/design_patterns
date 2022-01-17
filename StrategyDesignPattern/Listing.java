@@ -8,11 +8,11 @@ public class Listing {
 	public Listing()
 	{
 		items = new ArrayList<String>();
-		this.title = title;
+		this.title = "";
 	}
 	public Listing(String string) {
 		items = new ArrayList<String>();
-		this.title = title;
+		this.title = "";
 	}
 	public void add(String item)
 	{

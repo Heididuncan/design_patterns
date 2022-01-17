@@ -16,16 +16,16 @@ ArrayList<String> wishList = new ArrayList<String>();
             //System.out.println("Apples\nBananas\nCheese\nCherries\nChocolate\nCrackers\nOranges\nPeaches");
             
             temp = wishList;
-            temp.add("Apples");
+            temp.add("Bike");
             
-            temp.add("Bananas");
+            temp.add("Boat");
             
-            temp.add("Cheese");
-            temp.add("Cherries");
-            temp.add("Chocolate");
-            temp.add("Crackers");
-            temp.add("Oranges");
-            temp.add("Peaches");
+            temp.add("Cherry Tree");
+            temp.add("Monolopy");
+            temp.add("Truck");
+            temp.add("Paddle Board");
+            temp.add("Puzzle");
+            temp.add("Skipping Rope");
             System.out.print(temp);	
         }
     }    

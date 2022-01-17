@@ -1,12 +1,11 @@
 package StrategyDesignPattern;
 import java.util.ArrayList;
-import java.util.List;
 public interface SortBehavior {
 
 	ArrayList<String> data = new ArrayList<String>();
 	
 	public static ArrayList<String> sort(ArrayList<String> data) {
-		// TODO Auto-generated method stub
+		
 		//if(data != null)
 		//data.toArray();
 		BubbleSort.sort(data);
